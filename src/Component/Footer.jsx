@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
     <div style={{backgroundImage: "url(https://i.ibb.co/ZcktFSH/13.jpg)"}}>
-      <div className="container px-2 mx-auto py-4  md:py-12">
+      <div className="max-w-[1600px] px-2 mx-auto py-4  md:p-8">
         <div>
           <img className="w-14" src="./logo1.png" alt="" />
         </div>
