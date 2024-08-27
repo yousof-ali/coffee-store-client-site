@@ -11,14 +11,14 @@ const Footer = () => {
   return (
     <>
     <div style={{backgroundImage: "url(https://i.ibb.co/ZcktFSH/13.jpg)"}}>
-      <div className="container px-2 mx-auto py-12">
+      <div className="container px-2 mx-auto py-4  md:py-12">
         <div>
           <img className="w-14" src="./logo1.png" alt="" />
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-8">
             <div className="space-y-4 ">
                 <h2 className="text-2xl font-bold">Espresso Emporium</h2>
-                <p>Always ready to be your friend. Come & Contact with us to share your memorable moments, to share with your best companion.</p>
+                <p>Always ready to be your friend. Come & Contact with us to share your memorable <br /> moments, to share with your best companion.</p>
                 <div className="flex items-center gap-2 text-2xl">
                 <FaFacebook />
                 <FaTwitter />
